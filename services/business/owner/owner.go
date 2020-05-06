@@ -64,7 +64,6 @@ func SendEmailToBusinessOwner() {
 				log.Println(err)
 			}
 			log.Printf("Received a message: %s", d.Body)
-
 		}
 	}()
 

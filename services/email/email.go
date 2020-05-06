@@ -10,7 +10,7 @@ import (
 
 //WelcomeEmail is
 func WelcomeEmail(email string) error {
-	d := gomail.NewPlainDialer("smtp.yandex.ru", 465, "akezhanyesbolatov", "Yfehsp2203")
+	d := gomail.NewPlainDialer("smtp.yandex.ru", 465, "akezhanyesbolatov", "Yfehsp2203@")
 
 	m := gomail.NewMessage()
 	m.SetHeader("From", "akezhanyesbolatov@yandex.ru")
